@@ -1,0 +1,145 @@
+-------------------------------------------------------------------------------
+Test set: TestRozetka
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 61.06 s <<< FAILURE! - in TestRozetka
+UserCanAddOneProductToWishlistNonregister(TestRozetka)  Time elapsed: 7.667 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //h3[contains(text(), 'Вход')]}
+Expected: visible
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808265775.0.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808265775.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+	at TestRozetka.UserCanAddOneProductToWishlistNonregister(TestRozetka.java:55)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//h3[contains(text(), 'Вход')]}
+	at TestRozetka.UserCanAddOneProductToWishlistNonregister(TestRozetka.java:55)
+
+UserCanLoginByEmailAndPasswordNonregister(TestRozetka)  Time elapsed: 6.355 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //h3[contains(text(), 'Вход')]}
+Expected: visible
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808272052.1.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808272052.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+	at TestRozetka.UserCanLoginByEmailAndPasswordNonregister(TestRozetka.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//h3[contains(text(), 'Вход')]}
+	at TestRozetka.UserCanLoginByEmailAndPasswordNonregister(TestRozetka.java:70)
+
+UserRemoveOneProductFromCartNonregister(TestRozetka)  Time elapsed: 7.357 s  <<< FAILURE!
+com.codeborne.selenide.ex.InvalidStateException: 
+Invalid element state: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808279561.2.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808279561.2.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+	at TestRozetka.UserRemoveOneProductFromCartNonregister(TestRozetka.java:121)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+	at TestRozetka.UserRemoveOneProductFromCartNonregister(TestRozetka.java:121)
+
+UserCanUseSearchInHelpCentreNonregister(TestRozetka)  Time elapsed: 5.289 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //rz-main-page//aside//a[contains(text(), ' Справочный центр')]}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808284652.3.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808284652.3.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//rz-main-page//aside//a[contains(text(), ' Справочный центр')]"}
+	at TestRozetka.UserCanUseSearchInHelpCentreNonregister(TestRozetka.java:150)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//rz-main-page//aside//a[contains(text(), ' Справочный центр')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//rz-main-page//aside//a[contains(text(), ' Справочный центр')]}
+	at TestRozetka.UserCanUseSearchInHelpCentreNonregister(TestRozetka.java:150)
+
+UserCanViewInfoAboutOneProductFromHomePageNonregister(TestRozetka)  Time elapsed: 5.649 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808293501.4.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808293501.4.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]"}
+	at TestRozetka.UserCanViewInfoAboutOneProductFromHomePageNonregister(TestRozetka.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]}
+	at TestRozetka.UserCanViewInfoAboutOneProductFromHomePageNonregister(TestRozetka.java:81)
+
+UserCanViewInfoAboutCompanyFromMenuNonregister(TestRozetka)  Time elapsed: 6.021 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {button[aria-label='Открыть меню']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808299544.5.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808299544.5.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[aria-label='Открыть меню']"}
+	at TestRozetka.UserCanViewInfoAboutCompanyFromMenuNonregister(TestRozetka.java:94)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"button[aria-label='Открыть меню']"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=css selector, value=button[aria-label='Открыть меню']}
+	at TestRozetka.UserCanViewInfoAboutCompanyFromMenuNonregister(TestRozetka.java:94)
+
+UserCanAddOneProductToCartFromSearchNonregister(TestRozetka)  Time elapsed: 7.856 s  <<< FAILURE!
+com.codeborne.selenide.ex.InvalidStateException: 
+Invalid element state: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808307581.6.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808307581.6.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+	at TestRozetka.UserCanAddOneProductToCartFromSearchNonregister(TestRozetka.java:21)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+	at TestRozetka.UserCanAddOneProductToCartFromSearchNonregister(TestRozetka.java:21)
+

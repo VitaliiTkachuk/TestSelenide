@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRozetka" time="61.06" tests="10" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.4 install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tkach"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="user.name" value="tkach"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tkach\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.4" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PowerShell\7\;C:\Program Files\Java\jdk-17.0.2;C:\Program Files\Java\jdk-17.0.2\bin;C:\apache-maven-3.8.4\bin;C:\apache-maven-3.8.4\bin;C:\Windows\System32;C:\Users\tkach\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Program Files\Java\jdk-17.0.2;C:\Program Files\Java\jdk-17.0.2\bin;C:\apache-maven-3.8.4\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="UserCanPlaceOrderAfterAddingToCartNonregister" classname="TestRozetka" time="5.942"/>
+  <testcase name="UserCanChangeSiteLanguageToUkrainianNonregister" classname="TestRozetka" time="5.721"/>
+  <testcase name="UserCanAddOneProductToWishlistNonregister" classname="TestRozetka" time="7.667">
+    <failure message="Element not found {By.xpath: //h3[contains(text(), &apos;Вход&apos;)]}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808265775.0.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808265775.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(), &apos;Вход&apos;)]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //h3[contains(text(), 'Вход')]}
+Expected: visible
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808265775.0.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808265775.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+	at TestRozetka.UserCanAddOneProductToWishlistNonregister(TestRozetka.java:55)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//h3[contains(text(), 'Вход')]}
+	at TestRozetka.UserCanAddOneProductToWishlistNonregister(TestRozetka.java:55)
+</failure>
+    <system-out><![CDATA[28131 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808265775.0.png'
+28131 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808265775.0.png'
+28131 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808265775.0.png'
+28131 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808265775.0.png'
+28131 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808265775.0.png'
+]]></system-out>
+  </testcase>
+  <testcase name="UserCanLoginByEmailAndPasswordNonregister" classname="TestRozetka" time="6.355">
+    <failure message="Element not found {By.xpath: //h3[contains(text(), &apos;Вход&apos;)]}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808272052.1.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808272052.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(), &apos;Вход&apos;)]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //h3[contains(text(), 'Вход')]}
+Expected: visible
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808272052.1.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808272052.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+	at TestRozetka.UserCanLoginByEmailAndPasswordNonregister(TestRozetka.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Вход')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//h3[contains(text(), 'Вход')]}
+	at TestRozetka.UserCanLoginByEmailAndPasswordNonregister(TestRozetka.java:70)
+</failure>
+    <system-out><![CDATA[34488 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808272052.1.png'
+34488 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808272052.1.png'
+34488 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808272052.1.png'
+34488 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808272052.1.png'
+34488 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808272052.1.png'
+34488 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808272052.1.png'
+]]></system-out>
+  </testcase>
+  <testcase name="UserRemoveOneProductFromCartNonregister" classname="TestRozetka" time="7.357">
+    <failure message="Invalid element state: element click intercepted: Element &lt;button _ngcontent-rz-client-c119=&quot;&quot; type=&quot;button&quot; opencart=&quot;&quot; class=&quot;header__button ng-star-inserted header__button--active&quot;&gt;...&lt;/button&gt; is not clickable at point (1300, 36). Other element would receive the click: &lt;div _ngcontent-rz-client-c49=&quot;&quot; role=&quot;button&quot; class=&quot;modal__background modal__background_show_animation&quot;&gt;&lt;/div&gt;&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808279561.2.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808279561.2.html&#10;Timeout: 4 s.&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-rz-client-c119=&quot;&quot; type=&quot;button&quot; opencart=&quot;&quot; class=&quot;header__button ng-star-inserted header__button--active&quot;&gt;...&lt;/button&gt; is not clickable at point (1300, 36). Other element would receive the click: &lt;div _ngcontent-rz-client-c49=&quot;&quot; role=&quot;button&quot; class=&quot;modal__background modal__background_show_animation&quot;&gt;&lt;/div&gt;" type="com.codeborne.selenide.ex.InvalidStateException"><![CDATA[com.codeborne.selenide.ex.InvalidStateException: 
+Invalid element state: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808279561.2.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808279561.2.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+	at TestRozetka.UserRemoveOneProductFromCartNonregister(TestRozetka.java:121)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+	at TestRozetka.UserRemoveOneProductFromCartNonregister(TestRozetka.java:121)
+]]></failure>
+    <system-out><![CDATA[41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+41840 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808279561.2.png'
+]]></system-out>
+  </testcase>
+  <testcase name="UserCanUseSearchInHelpCentreNonregister" classname="TestRozetka" time="5.289">
+    <failure message="Element not found {By.xpath: //rz-main-page//aside//a[contains(text(), &apos; Справочный центр&apos;)]}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808284652.3.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808284652.3.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//rz-main-page//aside//a[contains(text(), &apos; Справочный центр&apos;)]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //rz-main-page//aside//a[contains(text(), ' Справочный центр')]}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808284652.3.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808284652.3.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//rz-main-page//aside//a[contains(text(), ' Справочный центр')]"}
+	at TestRozetka.UserCanUseSearchInHelpCentreNonregister(TestRozetka.java:150)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//rz-main-page//aside//a[contains(text(), ' Справочный центр')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//rz-main-page//aside//a[contains(text(), ' Справочный центр')]}
+	at TestRozetka.UserCanUseSearchInHelpCentreNonregister(TestRozetka.java:150)
+</failure>
+    <system-out><![CDATA[47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+47133 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808284652.3.png'
+]]></system-out>
+  </testcase>
+  <testcase name="UserCanViewCompanySocialPagesInstagramNonregister" classname="TestRozetka" time="3.203"/>
+  <testcase name="UserCanViewInfoAboutOneProductFromHomePageNonregister" classname="TestRozetka" time="5.649">
+    <failure message="Element not found {By.xpath: //a[@class = &apos;menu-categories__link&apos;][contains (@href , &apos;https://rozetka.com.ua/computers-notebooks&apos;)]}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808293501.4.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808293501.4.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class = &apos;menu-categories__link&apos;][contains (@href , &apos;https://rozetka.com.ua/computers-notebooks&apos;)]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808293501.4.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808293501.4.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]"}
+	at TestRozetka.UserCanViewInfoAboutOneProductFromHomePageNonregister(TestRozetka.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=xpath, value=//a[@class = 'menu-categories__link'][contains (@href , 'https://rozetka.com.ua/computers-notebooks')]}
+	at TestRozetka.UserCanViewInfoAboutOneProductFromHomePageNonregister(TestRozetka.java:81)
+</failure>
+    <system-out><![CDATA[55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+55985 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808293501.4.png'
+]]></system-out>
+  </testcase>
+  <testcase name="UserCanViewInfoAboutCompanyFromMenuNonregister" classname="TestRozetka" time="6.021">
+    <failure message="Element not found {button[aria-label=&apos;Открыть меню&apos;]}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808299544.5.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808299544.5.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[aria-label=&apos;Открыть меню&apos;]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {button[aria-label='Открыть меню']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808299544.5.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808299544.5.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[aria-label='Открыть меню']"}
+	at TestRozetka.UserCanViewInfoAboutCompanyFromMenuNonregister(TestRozetka.java:94)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"button[aria-label='Открыть меню']"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+*** Element info: {Using=css selector, value=button[aria-label='Открыть меню']}
+	at TestRozetka.UserCanViewInfoAboutCompanyFromMenuNonregister(TestRozetka.java:94)
+</failure>
+    <system-out><![CDATA[62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+62005 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808299544.5.png'
+]]></system-out>
+  </testcase>
+  <testcase name="UserCanAddOneProductToCartFromSearchNonregister" classname="TestRozetka" time="7.856">
+    <failure message="Invalid element state: element click intercepted: Element &lt;button _ngcontent-rz-client-c119=&quot;&quot; type=&quot;button&quot; opencart=&quot;&quot; class=&quot;header__button ng-star-inserted header__button--active&quot;&gt;...&lt;/button&gt; is not clickable at point (1300, 36). Other element would receive the click: &lt;div _ngcontent-rz-client-c49=&quot;&quot; role=&quot;button&quot; class=&quot;modal__background modal__background_show_animation&quot;&gt;&lt;/div&gt;&#10;Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808307581.6.png&#10;Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808307581.6.html&#10;Timeout: 4 s.&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-rz-client-c119=&quot;&quot; type=&quot;button&quot; opencart=&quot;&quot; class=&quot;header__button ng-star-inserted header__button--active&quot;&gt;...&lt;/button&gt; is not clickable at point (1300, 36). Other element would receive the click: &lt;div _ngcontent-rz-client-c49=&quot;&quot; role=&quot;button&quot; class=&quot;modal__background modal__background_show_animation&quot;&gt;&lt;/div&gt;" type="com.codeborne.selenide.ex.InvalidStateException"><![CDATA[com.codeborne.selenide.ex.InvalidStateException: 
+Invalid element state: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+Screenshot: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808307581.6.png
+Page source: file:/C:/Users/tkach/Desktop/beetrot_autotest_example/beetrot_autotest_example/build/reports/tests/1643808307581.6.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+	at TestRozetka.UserCanAddOneProductToCartFromSearchNonregister(TestRozetka.java:21)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-rz-client-c119="" type="button" opencart="" class="header__button ng-star-inserted header__button--active">...</button> is not clickable at point (1300, 36). Other element would receive the click: <div _ngcontent-rz-client-c49="" role="button" class="modal__background modal__background_show_animation"></div>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-1M6OKI8V336', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\tkach\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6698310d3af8a29d794200d8eb58e109
+	at TestRozetka.UserCanAddOneProductToCartFromSearchNonregister(TestRozetka.java:21)
+]]></failure>
+    <system-out><![CDATA[69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+69861 [main] DEBUG com.codeborne.selenide.impl.ScreenShotLaboratory  - reportsUrl is not configured. Returning screenshot file name 'C:\Users\tkach\Desktop\beetrot_autotest_example\beetrot_autotest_example\build\reports\tests\1643808307581.6.png'
+]]></system-out>
+  </testcase>
+</testsuite>
