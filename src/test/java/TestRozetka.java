@@ -122,10 +122,11 @@ public class TestRozetka {
         $("span[class=goods-tile__title]").shouldHave(text(searchName)); //Check that product is found.
         $("app-buy-button > button").click();
         $(By.xpath("//header/div/div/ul/li[7]/rz-cart/button")).click();
-        $("h3[class=modal__heading]").shouldHave(text("Корзина")); //Check that cart modal is opened.
+        Selenide.sleep(2000);
+        $("h3[class=modal__heading]").shouldHave(text(" Корзина ")); //Check that cart modal is opened.
         $("div[class=cart-receipt__sum-price]").shouldBe(visible); //Check that on cart modal is product.
         Selenide.sleep(2000);
-        $("button[class='button button--white button--small context-menu__toggle']").click();
+        $("button[class='button button--white button--small popup-menu__toggle popup-menu__toggle--context']").click();
         $(By.xpath("//button[contains(text(), ' Удалить ')]")).click();
         $(By.xpath("//h4")).shouldHave(text("Корзина пуста")); //Check that product is removed from the cart.
         Selenide.sleep(2000);
